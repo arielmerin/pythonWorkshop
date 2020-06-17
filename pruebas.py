@@ -14,3 +14,12 @@ v, b = 3.1, 4.2
 print(type(v))
 print("la suma de 3.1 y 4.3 es: ", v + b)
 
+a = input("Ingrese un número para la tricotomía de los reales")
+
+
+if(a > 0):
+	print("El número " a, " es positivo")
+elif(a == 0):
+	print("Eso es cero")
+else:
+	print("El número ", a, " es negativo")
